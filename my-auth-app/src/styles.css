@@ -1,0 +1,41 @@
+/* src/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: aqua;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 300px;
+    width: 100%;
+}
+
+input {
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+}
+/* src/styles.css */
+.user-details {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.user-details h2 {
+    margin-bottom: 10px;
+}
